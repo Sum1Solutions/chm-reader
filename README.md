@@ -1,12 +1,11 @@
 # CHM File Backup with App
 
-This project provides a Python-based application for reading and displaying the contents of CHM (Compiled HTML Help) files. It includes a web interface for easy navigation and viewing of the CHM file contents.
+This project provides a Python-based application for reading and displaying the contents of CHM (Compiled HTML Help) files. Plenty to do to make this a better solution, starting with the Search.
 
 ## Features
 
 - Read and parse CHM files
 - Web interface for displaying CHM contents
-- Easy navigation through CHM file structure
 
 ## Requirements
 
@@ -18,8 +17,8 @@ This project provides a Python-based application for reading and displaying the 
 
 1. Clone this repository:
    ```
-   git clone https://github.com/Sum1Solutions/chm-file-backup-with-app.git
-   cd chm-file-backup-with-app
+   git clone https://github.com/Sum1Solutions/chm-reader.git
+   cd chm-reader
    ```
 
 2. Create and activate a virtual environment:
@@ -40,12 +39,12 @@ This project provides a Python-based application for reading and displaying the 
    python chm-reader.py
    ```
 
-6. Then run:
+6. Then run the app to see the help:
    ```
    python app.py
    ```
 
-7. And then open the generated index.html file in a browswer to see help files and a start to a web app.
+7. Or open the generated index.html file in a browswer to see help files from within.
 
 ## File Structure
 
